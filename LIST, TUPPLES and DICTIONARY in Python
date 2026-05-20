@@ -22,3 +22,4 @@ slicing the list ;
 we can extract portion of list by slicing:
 syntac : list[start:stop:step] (start index to start slice and it is inclusive , stop index to stop slice and it is exclusive and step no of step to skip element)
 ex : print(list[1:2])
+
