@@ -1,0 +1,24 @@
+LIST :
+Listis collection of items thare mutable and allow duplicate itema and irrespective of data type.
+syntax :
+list = [ element1, element2, element3]
+we can access the list by using indexing 
+ex : list = ["Nidhi", 25, 5.8]
+print(list[0]) - o/p is 'Nidhi'
+as list can be ,utale we can add, modify or delete the item from list.
+append() is use for to add an item at end of the list
+ex: list.append(2000)
+insert() is used to add item to list with specific position.
+ex : List.insert(3, "Rangaswamy")
+If we wnat delete an item from list we can del function 
+ex: del list[1]
+there are other functions is used to medify list and those are documented below:
+pop() : remove the lement at specific index
+Remove() ; remove the first occurence of an element 
+clear() : remove all element form list.
+we can replace an item in list.
+ex : list[4] = "rahul"
+slicing the list ; 
+we can extract portion of list by slicing:
+syntac : list[start:stop:step] (start index to start slice and it is inclusive , stop index to stop slice and it is exclusive and step no of step to skip element)
+ex : print(list[1:2])
